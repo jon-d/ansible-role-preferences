@@ -1,0 +1,6 @@
+- name: setup root bash config
+  copy: src=bashrc-root dest=/root/.bashrc
+
+- name: install a nice vim config file
+  copy: src=vimrc dest=/etc/vimrc
+
